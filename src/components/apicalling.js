@@ -23,7 +23,7 @@ function Apicalling() {
 
 
     const HandleClick = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         apicall();
     }
 
