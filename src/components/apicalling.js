@@ -23,13 +23,13 @@ function Apicalling() {
 
 
     const HandleClick = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         apicall();
     }
 
     const HandleFilter = (value) => {
         const filter = filterdata && filterdata.filter(items => items.title.toLowerCase().match(value))
-        return setApidata(filter)
+        return setApidata(filter);
     }
 
 
