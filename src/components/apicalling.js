@@ -29,7 +29,7 @@ function Apicalling() {
 
     const HandleFilter = (value) => {
         const filter = filterdata && filterdata.filter(items => items.title.toLowerCase().match(value))
-        return setApidata(filter);
+        return setApidata(filter)
     }
 
 
@@ -39,7 +39,7 @@ function Apicalling() {
                 <input type='search' placeholder='search' onChange={(e) => HandleFilter(e.target.value.toLowerCase())} />
             </div>
 
-            <button onClick={HandleClick}>Click here</button>
+            <button onClick={HandleClick}>Click me</button>
             <ul style={{marginLeft:"1.5rem"}}>
                 {
 
