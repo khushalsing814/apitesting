@@ -18,7 +18,7 @@ function Apicalling() {
                 return res.json()
             })
             .then(d => { console.log(d); setApidata(d); setFilterdata(d) })
-            .catch(error => console.log(error))
+            .catch(error => console.log(error));
     }
 
 
