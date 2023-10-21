@@ -29,7 +29,7 @@ function Apicalling() {
 
     const HandleFilter = (value) => {
         const filter = filterdata && filterdata.filter(items => items.title.toLowerCase().match(value))
-        return setApidata(filter)
+        return setApidata(filter);
     }
 
 
